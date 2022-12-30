@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+const user1 = "4lip"
+
+function App()
+{
   return (
     <div className="App">
-     <div>4lip</div>
+     {user1}
+     
     </div>
   );
 }
