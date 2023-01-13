@@ -4,6 +4,17 @@ const user3 = "Kanonashi";
 const user4 = "Grumcio";
 const user5 = "Gizmo";
 
+const users = [
+  {
+    name: "4lip",
+    codeGoal: "",
+
+  },
+  {}
+]
+
+
+
 function App() {
   return (
     <div className="App">
