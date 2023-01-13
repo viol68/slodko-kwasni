@@ -31,11 +31,8 @@ const users = [
 function App() {
   return (
     <div className="App">
-      {user1}
-      {user2}
-      {user3}
-      {user4}
-      {user5}
+      {users.map((user) => <div>{user.name + " " + user.codeGoal}</div>)}
+
     </div>
   );
 }
