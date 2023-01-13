@@ -8,16 +8,16 @@ const users = [
   {
     name: "4lip",
     codeGoal: "",
-
   },
   {
     name: "Kanonashi",
     codeGoal: "Gra 2D płaska i fajna + umiejętności UX",
-
-  }
-]
-
-
+  },
+  {
+    name: "Grumcio",
+    codeGoal: "",
+  },
+];
 
 function App() {
   return (
