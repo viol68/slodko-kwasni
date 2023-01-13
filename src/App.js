@@ -10,7 +10,11 @@ const users = [
     codeGoal: "",
 
   },
-  {}
+  {
+    name: "Kanonashi",
+    codeGoal: "Gra 2D płaska i fajna + umiejętności UX",
+
+  }
 ]
 
 
