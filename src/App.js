@@ -16,7 +16,7 @@ const users = [
   },
   {
     name: "Grumcio",
-    codeGoal: "Stworzenie portfolio elektornicznego online",
+    codeGoal: "Stworzenie portfolio elektronicznego online",
   },
   {
     name: "Hudziak",
