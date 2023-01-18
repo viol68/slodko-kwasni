@@ -4,7 +4,7 @@ const user3 = "Kanonashi";
 const user4 = "Grumcio";
 const user5 = "Gizmo";
 const user6 = "Dorka";
-const user7 = "Roxi";
+const user7 = "Roxi"
 
 const users = [
   {
@@ -13,6 +13,10 @@ const users = [
   },
   {
     name: "Kanonashi",
+    codeGoal: "Stworzenie portfolio elektronicznego online",
+  },
+  {
+    name: "Gizmo",
     codeGoal: "Stworzenie portfolio elektronicznego online",
   },
   {
