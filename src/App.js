@@ -4,6 +4,7 @@ const user3 = "Kanonashi";
 const user4 = "Grumcio";
 const user5 = "Gizmo";
 const user6 = "Dorka";
+const user7 = "Roxi";
 
 const users = [
   {
@@ -40,6 +41,8 @@ function App() {
       {user3}
       {user4}
       {user5}
+      {user6}
+      {user7}
     </div>
   );
 }
