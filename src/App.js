@@ -9,7 +9,7 @@ const user7 = "Roxi";
 const users = [
   {
     name: "4lip",
-    codeGoal: "chuj",
+    codeGoal: "Stworzenie portfolio elektronicznego online",
   },
   {
     name: "Kanonashi",
@@ -41,12 +41,29 @@ function App() {
   return (
     <div className="App">
       {users.map((user) => (
+        <div>{user.name.toUpperCase() + "4lip" + user.codeGoal}</div>
+      ))}
+      {users.map((user) => (
+        <div>{user.name + "Kanonashi" + user.codeGoal}</div>
+      ))}
+      {users.map((user) => (
+        <div>{user.name + "Gizmo" + user.codeGoal}</div>
+      ))}
+      {users.map((user) => (
         <div>
-          {user.name.slice("m", "o") +
-            " " +
-            user.codeGoal.split(["o"], ["6"]) +
-            ""}{" "}
+          {user.name.slice("G", "o") +
+            "Grumcio" +
+            user.codeGoal.split(["o"], ["6"])}
         </div>
+      ))}
+      {users.map((user) => (
+        <div>{user.name + "Hudziak" + user.codeGoal}</div>
+      ))}
+      {users.map((user) => (
+        <div>{user.name + "Dorka" + user.codeGoal}</div>
+      ))}
+      {users.map((user) => (
+        <div>{user.name + "Roxi" + user.codeGoal}</div>
       ))}
     </div>
   );
