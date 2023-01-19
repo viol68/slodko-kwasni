@@ -63,7 +63,7 @@ function App() {
         <div>{user.name + user.codeGoal + "Dorka"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Roxi"}</div>
+        <div>{user.name.concat(" "," koksi ") + user.codeGoal + "Roxi"}</div>
       ))}
     </div>
   );
