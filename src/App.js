@@ -57,7 +57,7 @@ function App() {
         </div>
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal.length + "Hudziak"}</div>
+        <div>{user.name.charAt(3) + user.codeGoal.length + "Hudziak"}</div>
       ))}
       {users.map((user) => (
         <div>{user.name + user.codeGoal + "Dorka"}</div>
