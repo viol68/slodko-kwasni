@@ -1,15 +1,15 @@
 const user1 = "4lip";
-const user2 = "Hudziak";
-const user3 = "Kanonashi";
+const user2 = "Kanonashi";
+const user3 = "Gizmo";
 const user4 = "Grumcio";
-const user5 = "Gizmo";
+const user5 = "Hudziak";
 const user6 = "Dorka";
-const user7 = "Roxi"
+const user7 = "Roxi";
 
 const users = [
   {
     name: "4lip",
-    codeGoal: "Stworzenie portfolio elektronicznego online",
+    codeGoal: "chuj",
   },
   {
     name: "Kanonashi",
@@ -40,13 +40,14 @@ const users = [
 function App() {
   return (
     <div className="App">
-      {user1}
-      {user2}
-      {user3}
-      {user4}
-      {user5}
-      {user6}
-      {user7}
+      {users.map((user) => (
+        <div>
+          {user.name.slice("m", "o") +
+            " " +
+            user.codeGoal.split(["o"], ["6"]) +
+            ""}{" "}
+        </div>
+      ))}
     </div>
   );
 }
