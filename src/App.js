@@ -44,26 +44,26 @@ function App() {
         <div>{user.name.repeat(3) + user.codeGoal.toUpperCase() + "4lip"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + "Kanonashi" + user.codeGoal}</div>
+        <div>{user.name + user.codeGoal + "Kanonashi"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + "Gizmo" + user.codeGoal}</div>
+        <div>{user.name + user.codeGoal + "Gizmo"}</div>
       ))}
       {users.map((user) => (
         <div>
           {user.name.slice("G", "o") +
-            "Grumcio" +
-            user.codeGoal.split(["o"], ["6"])}
+            user.codeGoal.split(["o"], ["6"]) +
+            "Grumcio"}
         </div>
       ))}
       {users.map((user) => (
-        <div>{user.name + "Hudziak" + user.codeGoal}</div>
+        <div>{user.name + user.codeGoal + "Hudziak"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + "Dorka" + user.codeGoal}</div>
+        <div>{user.name + user.codeGoal + "Dorka"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + "Roxi" + user.codeGoal}</div>
+        <div>{user.name + user.codeGoal + "Roxi"}</div>
       ))}
     </div>
   );
