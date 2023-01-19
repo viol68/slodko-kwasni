@@ -44,7 +44,7 @@ function App() {
         <div>{user.name.repeat(3) + user.codeGoal.toUpperCase() + "4lip"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Kanonashi"}</div>
+        <div>{user.name.str + user.codeGoal + "Kanonashi"}</div>
       ))}
       {users.map((user) => (
         <div>{user.name + user.codeGoal + "Gizmo"}</div>
