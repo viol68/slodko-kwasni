@@ -47,7 +47,7 @@ function App() {
         <div>{user.name.charAt(3) + user.codeGoal.length + "Kanonashi"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Gizmo"}</div>
+        <div>{user.name.substring(3) + user.codeGoal.toLowerCase() + "Gizmo"}</div>
       ))}
       {users.map((user) => (
         <div>
@@ -60,7 +60,7 @@ function App() {
         <div>{user.name + user.codeGoal + "Hudziak"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Dorka"}</div>
+        <div>{user.name.replace() + user.codeGoal.endsWith("a") + "Dorka"}</div>
       ))}
       {users.map((user) => (
         <div>{user.name.concat(" ", " Koksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
