@@ -1,3 +1,5 @@
+import { Name } from "./components/Name";
+
 const user1 = "4lip";
 const user2 = "Kanonashi";
 const user3 = "Gizmo";
@@ -41,13 +43,15 @@ function App() {
   return (
     <div className="App">
       {users.map((user) => (
-        <div>{user.name.repeat(3) + user.codeGoal.toUpperCase() + "4lip"}</div>
+        <Name />
       ))}
       {users.map((user) => (
         <div>{user.name.charAt(3) + user.codeGoal.length + "Kanonashi"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name.substring(3) + user.codeGoal.toLowerCase() + "Gizmo"}</div>
+        <div>
+          {user.name.substring(3) + user.codeGoal.toLowerCase() + "Gizmo"}
+        </div>
       ))}
       {users.map((user) => (
         <div>
@@ -63,7 +67,11 @@ function App() {
         <div>{user.name.replace() + user.codeGoal.endsWith("a") + "Dorka"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name.concat(" ", " Koksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
+        <div>
+          {user.name.concat(" ", " Koksi") +
+            user.codeGoal.indexOf("portfolio") +
+            "Roxi"}
+        </div>
       ))}
     </div>
   );
