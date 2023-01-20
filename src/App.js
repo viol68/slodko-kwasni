@@ -47,7 +47,7 @@ function App() {
         <div>{user.name + user.codeGoal + "Kanonashi"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Gizmo"}</div>
+        <div>{user.name.substring() + user.codeGoal.toLowerCase() + "Gizmo"}</div>
       ))}
       {users.map((user) => (
         <div>
