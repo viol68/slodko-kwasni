@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
       {users.map((user) => (
-        <Name />
+        <Name userData={user}/>
       ))}
       {users.map((user) => (
         <div>{user.name.charAt(3) + user.codeGoal.length + "Kanonashi"}</div>

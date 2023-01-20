@@ -1,3 +1,4 @@
-export const Name = () => {
-  return <div>Slay</div>;
+export const Name = (props) => {
+  console.log(props.userData)
+  return <div>{props.userData.name}</div>;
 };
