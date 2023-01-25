@@ -1,6 +1,7 @@
 import { Filip } from "./components/Filip";
 import { Grumcio } from "./components/Grumcio";
 import { Roxi } from "./components/Roxi";
+import { Hudzio } from "./components/Hudzio";
 
 const user1 = "4lip";
 const user2 = "Kanonashi";
