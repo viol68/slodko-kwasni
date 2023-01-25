@@ -1,4 +1,5 @@
-import { Name } from "./components/Name";
+import { Filip } from "./components/Filip";
+import { Grumcio } from "./components/Grumcio";
 
 const user1 = "4lip";
 const user2 = "Kanonashi";
@@ -43,35 +44,10 @@ function App() {
   return (
     <div className="App">
       {users.map((user) => (
-        <Name userData={user}/>
+        <Filip userData={user} />
       ))}
       {users.map((user) => (
-        <div>{user.name.charAt(3) + user.codeGoal.length + "Kanonashi"}</div>
-      ))}
-      {users.map((user) => (
-        <div>
-          {user.name.substring(3) + user.codeGoal.toLowerCase() + "Gizmo"}
-        </div>
-      ))}
-      {users.map((user) => (
-        <div>
-          {user.name.slice("G", "o") +
-            user.codeGoal.split(["o"], ["6"]) +
-            "Grumcio"}
-        </div>
-      ))}
-      {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Hudziak"}</div>
-      ))}
-      {users.map((user) => (
-        <div>{user.name.replace() + user.codeGoal.endsWith("a") + "Dorka"}</div>
-      ))}
-      {users.map((user) => (
-        <div>
-          {user.name.concat(" ", " Koksi") +
-            user.codeGoal.indexOf("portfolio") +
-            "Roxi"}
-        </div>
+        <Grumcio userData={user} />
       ))}
     </div>
   );
