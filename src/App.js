@@ -1,5 +1,6 @@
 import { Filip } from "./components/Filip";
 import { Grumcio } from "./components/Grumcio";
+import { Roxi } from "./components/Roxi";
 
 const user1 = "4lip";
 const user2 = "Kanonashi";
@@ -48,6 +49,9 @@ function App() {
       ))}
       {users.map((user) => (
         <Grumcio userData={user} />
+      ))}
+      {users.map((user) => (
+        <Roxi userData={user} />
       ))}
     </div>
   );
