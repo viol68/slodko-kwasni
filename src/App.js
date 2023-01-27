@@ -2,12 +2,8 @@ import { Filip } from "./components/Filip";
 import { Grumcio } from "./components/Grumcio";
 import { Roxi } from "./components/Roxi";
 import { Hudzio } from "./components/Hudzio";
-<<<<<<< HEAD
 import { Dorka } from "./components/Dorka";
 import { Gizmo } from "./components/Gizmo";
-=======
-import { Kanonashi } from "./components/Kanonashi";
->>>>>>> de5d188bb6995381dff4de22fc8c25a17965d234
 
 const user1 = "4lip";
 const user2 = "Kanonashi";
@@ -51,6 +47,7 @@ const users = [
 function App() {
   return (
     <div className="App">
+
       {users.map((user) => (
         <Filip userData={user} />
       ))}
@@ -60,7 +57,7 @@ function App() {
       {users.map((user) => (
         <Roxi userData={user} />
       ))}
-<<<<<<< HEAD
+
     {users.map((user) => (
         <Hudzio userData={user} />
       ))}
@@ -68,11 +65,8 @@ function App() {
         <Dorka userData={user} />
       ))}
       {users.map((user) => (
-        <Gizmo userData={user} />
-=======
-      {users.map((user) => (
-        <div>{user.name.concat(" ", " Koksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
-      ))}
+        <Gizmo userData={user} /> 
+        ))}
     </div>
   );
 }
