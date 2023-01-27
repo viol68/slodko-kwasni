@@ -63,7 +63,7 @@ function App() {
         <div>{user.name + user.codeGoal + "Dorka"}</div>
       ))}
       {users.map((user) => (
-        <div>{user.name.concat(" ", " Koksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
+        <div>{user.name.concat(" ", " giKoksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
       ))}
     </div>
   );
