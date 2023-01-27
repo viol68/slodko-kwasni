@@ -1,8 +1,19 @@
+import { Filip } from "./components/Filip";
+import { Grumcio } from "./components/Grumcio";
+import { Roxi } from "./components/Roxi";
+import { Hudzio } from "./components/Hudzio";
+<<<<<<< HEAD
+import { Dorka } from "./components/Dorka";
+import { Gizmo } from "./components/Gizmo";
+=======
+import { Kanonashi } from "./components/Kanonashi";
+>>>>>>> de5d188bb6995381dff4de22fc8c25a17965d234
+
 const user1 = "4lip";
 const user2 = "Kanonashi";
 const user3 = "Gizmo";
 const user4 = "Grumcio";
-const user5 = "Hudziak";
+const user5 = "Hudzio";
 const user6 = "Dorka";
 const user7 = "Roxi";
 
@@ -24,7 +35,7 @@ const users = [
     codeGoal: "Stworzenie portfolio elektronicznego online",
   },
   {
-    name: "Hudziak",
+    name: "Hudzio",
     codeGoal: "Stworzenie portfolio elektronicznego online",
   },
   {
@@ -41,29 +52,26 @@ function App() {
   return (
     <div className="App">
       {users.map((user) => (
-        <div>{user.name.repeat(3) + user.codeGoal.toUpperCase() + "4lip"}</div>
+        <Filip userData={user} />
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Kanonashi"}</div>
+        <Grumcio userData={user} />
       ))}
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Gizmo"}</div>
+        <Roxi userData={user} />
+      ))}
+<<<<<<< HEAD
+    {users.map((user) => (
+        <Hudzio userData={user} />
       ))}
       {users.map((user) => (
-        <div>
-          {user.name.slice("G", "o") +
-            user.codeGoal.split(["o"], ["6"]) +
-            "Grumcio"}
-        </div>
+        <Dorka userData={user} />
       ))}
       {users.map((user) => (
-        <div>{user.name.charAt(3) + user.codeGoal.length + "Hudziak"}</div>
-      ))}
+        <Gizmo userData={user} />
+=======
       {users.map((user) => (
-        <div>{user.name + user.codeGoal + "Dorka"}</div>
-      ))}
-      {users.map((user) => (
-        <div>{user.name.concat(" ", " giKoksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
+        <div>{user.name.concat(" ", " Koksi") + user.codeGoal.indexOf("portfolio") + "Roxi"}</div>
       ))}
     </div>
   );
