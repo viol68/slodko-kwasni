@@ -1,4 +1,4 @@
-export const Kanonashi = (props) => {
+export const Background = (props) => {
   console.log(props.userData);
   return <div>{props.userData.name}</div>;
 };

@@ -1,6 +1,6 @@
-import { Filip } from "./components/Filip";
+import { Description } from "./components/atoms/Description";
 import { Name } from "./components/atoms/Name";
-import { Roxi } from "./components/Roxi";
+import { Background } from "./components/atoms/Background";
 import { Hudzio } from "./components/Hudzio";
 import { Dorka } from "./components/Dorka";
 import { Gizmo } from "./components/Gizmo";
@@ -48,13 +48,13 @@ function App() {
   return (
     <div className="App">
       {users.map((user) => (
-        <Filip userData={user} />
+        <Description userData={user} />
       ))}
       {users.map((user) => (
         <Name userData={user} />
       ))}
       {users.map((user) => (
-        <Roxi userData={user} />
+        <Background userData={user} />
       ))}
       {users.map((user) => (
         <Hudzio userData={user} />
