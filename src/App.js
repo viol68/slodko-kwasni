@@ -5,7 +5,7 @@ import { Hudzio } from "./components/Hudzio";
 import { Dorka } from "./components/Dorka";
 import { Gizmo } from "./components/Gizmo";
 
-const user1 = "4lip";
+const user1 = "4lip Home Work About";
 const user2 = "Kanonashi";
 const user3 = "Gizmo";
 const user4 = "Grumcio";
@@ -47,9 +47,7 @@ const users = [
 function App() {
   return (
     <div className="App">
-      
-        <Name userData={users[0]} />
-
+      <Name userData={users[0]} />
     </div>
   );
 }
