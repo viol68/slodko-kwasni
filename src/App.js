@@ -47,24 +47,9 @@ const users = [
 function App() {
   return (
     <div className="App">
-      {users.map((user) => (
-        <Description userData={user} />
-      ))}
-      {users.map((user) => (
-        <Name userData={user} />
-      ))}
-      {users.map((user) => (
-        <Background userData={user} />
-      ))}
-      {users.map((user) => (
-        <Hudzio userData={user} />
-      ))}
-      {users.map((user) => (
-        <Dorka userData={user} />
-      ))}
-      {users.map((user) => (
-        <Gizmo userData={user} />
-      ))}
+      
+        <Name userData={users[0]} />
+
     </div>
   );
 }
