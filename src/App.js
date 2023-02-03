@@ -2,7 +2,7 @@ import { Description } from "./components/atoms/Description";
 import { Name } from "./components/atoms/Name";
 import { Background } from "./components/atoms/Background";
 import { Hudzio } from "./components/Hudzio";
-import { Dorka } from "./components/Dorka";
+import { Profile } from "./components/molecules/Profile";
 import { Gizmo } from "./components/Gizmo";
 
 const user1 = "4lip Home Work About";
