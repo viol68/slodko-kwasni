@@ -4,8 +4,9 @@ import { Background } from "./components/atoms/Background";
 import { Hudzio } from "./components/Hudzio";
 import { Profile } from "./components/molecules/Profile";
 import { Gizmo } from "./components/Gizmo";
+import { Navigation } from "./components/molecules/Navigation";
 
-const user1 = "4lip Home Work About";
+const user1 = "4lip";
 const user2 = "Kanonashi";
 const user3 = "Gizmo";
 const user4 = "Grumcio";
@@ -48,6 +49,7 @@ function App() {
   return (
     <div className="App">
       <Name userData={users[0]} />
+      <Navigation />
     </div>
   );
 }
