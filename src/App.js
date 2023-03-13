@@ -6,7 +6,7 @@ import { Profile } from "./components/molecules/Profile";
 import { Gizmo } from "./components/Gizmo";
 import { Navigation } from "./components/molecules/Navigation";
 import { SectionWork } from "./components/organisms/SectionWork";
-
+import { SectionWelcome } from "./components/organisms/SectionWelcome";
 
 
 const users = [
@@ -46,6 +46,7 @@ function App() {
       <Name userData={users[0]} />
       <Navigation />
       <SectionWork />
+      <SectionWelcome />
     </div>
   );
 }
