@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 // Grumcio
 export const Name = (props) => {
-  console.log(props.userData);
   return (
     <StyledWraper>
       <StyledDot />
@@ -10,14 +9,17 @@ export const Name = (props) => {
     </StyledWraper>
   );
 };
-const StyledWraper = styled("p")(() => ({
-  fontSize: "20px",
+
+
+const StyledWraper = styled("div")(() => ({
   display: "flex",
+  fontSize: "20px",
   gap: "15px",
   position: "absolute",
-  top: 0,
-  left: 30, // przesuwa od lewej względem całej str, nawet jak tam scrolujesz
+  top: 30,
+  left: 50, // przesuwa od lewej względem całej str, nawet jak tam scrolujesz
 }));
+
 const StyledDot = styled("div")(() => ({
   backgroundColor: "rgb(255,89,37)",
   width: "30px",

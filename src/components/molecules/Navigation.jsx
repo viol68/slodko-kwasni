@@ -1,17 +1,29 @@
 import styled from "styled-components";
 
 export const Navigation = (props) => {
-  console.log("lubie placki");
+
   return (
     <StyledWrapper>
-      <div>Home</div>
-      <div>Work</div>
-      <div>About</div>
+      <StyledLink>Home</StyledLink>
+      <StyledLink>Work</StyledLink>
+      <StyledLink>About</StyledLink>
     </StyledWrapper>
   );
 };
+
 const StyledWrapper = styled("div")(() => ({
+  display: "flex",
+  gap:"15px",
   position: "absolute",
-  top: 0,
+  top: 30,
   right: 30,
+
+
+}));
+
+const StyledLink = styled("div")(() => ({
+  ':hover': {
+    color:"#3E83FB",
+    cursor:"pointer"
+  }
 }));
